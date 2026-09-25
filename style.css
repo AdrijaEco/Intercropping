@@ -134,7 +134,6 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,ca
 .map-controls{display:flex;align-items:center;gap:8px}
 .map-controls span{margin-right:10px}
 .map-controls button{background:white;border:1px solid var(--line);border-radius:4px;color:var(--teal);font-weight:800;min-width:32px;height:32px;cursor:pointer}
-.map-controls #focus-india{padding:0 11px;border-color:var(--teal);background:#edf6f5}
 .map-controls button:hover{background:#edf6f5}
 .detail-backdrop{position:fixed;inset:0;z-index:40;background:rgba(16,40,42,.5)}
 .detail-backdrop[hidden]{display:none}
