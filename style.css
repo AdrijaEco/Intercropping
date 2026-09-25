@@ -8,7 +8,7 @@ a{color:var(--teal)}
 .top{border-bottom:1px solid var(--line);background:white}
 .top-inner{display:flex;justify-content:space-between;align-items:center;min-height:68px;gap:20px}
 .brand{display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);font-weight:800;letter-spacing:-.04em;font-size:1.18rem}
-.brand img{display:block;width:42px;height:28px;object-fit:contain}
+.brand img{display:block;width:126px;height:84px;object-fit:contain}
 .brand-name{white-space:nowrap}
 .brand-name em{color:var(--teal);font-style:normal}
 nav{display:flex;gap:30px}
