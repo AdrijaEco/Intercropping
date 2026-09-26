@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset or website, please cite it using the metadata below."
+title: "Temporally staggered cropping co-benefits beneficial insects and pest control globally"
+type: dataset
+authors:
+  - family-names: Datta
+    given-names: Adrija
+    orcid: "https://orcid.org/0000-0002-1971-229X"
+    affiliation: "Indian Institute of Technology Gandhinagar"
+doi: "10.5281/zenodo.20680177"
+url: "https://adrijaeco.github.io/Intercropping/"
+repository-code: "https://github.com/AdrijaEco/Intercropping"
+license: CC-BY-4.0
+date-released: 2026-06-13
+abstract: >-
+  A global evidence base from peer-reviewed studies examining how spatial and
+  temporal configurations of intercropping affect insect abundance under field
+  conditions, presented through the Intercropping Evidence Atlas.
+keywords:
+  - intercropping
+  - agroecology
+  - insect abundance
+  - beneficial insects
+  - agricultural pests

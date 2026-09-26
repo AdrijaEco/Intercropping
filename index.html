@@ -4,17 +4,82 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Explore and download intercropping and insect observations by climate, geography and insect family.">
-<title>Intercropping Evidence Atlas</title>
+<meta name="description" content="Explore and download a global evidence atlas of 7,617 intercropping insect observations from 337 research articles, searchable by crop, insect family, climate and country.">
+<meta name="keywords" content="intercropping dataset, insect abundance, evidence atlas, agroecology, pest control, beneficial insects, crop diversity">
+<meta name="author" content="Adrija Datta, Indian Institute of Technology Gandhinagar">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="google-analytics-id" content="">
+<!-- Paste the Search Console verification token into content after Google provides it. -->
+<meta name="google-site-verification" content="">
+<link rel="canonical" href="https://adrijaeco.github.io/Intercropping/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Intercropping Evidence Atlas">
+<meta property="og:title" content="Global Intercropping Evidence Atlas">
+<meta property="og:description" content="Explore 7,617 crop–insect observations from 337 research articles and download the open dataset.">
+<meta property="og:url" content="https://adrijaeco.github.io/Intercropping/">
+<meta property="og:image" content="https://adrijaeco.github.io/Intercropping/assets/intercropping-arrangements.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Global Intercropping Evidence Atlas">
+<meta name="twitter:description" content="An open global evidence map of intercropping effects on insect abundance.">
+<meta name="twitter:image" content="https://adrijaeco.github.io/Intercropping/assets/intercropping-arrangements.png">
+<title>Global Intercropping Insect Dataset | Evidence Atlas</title>
 <link rel="icon" type="image/png" href="assets/iea-logo.png">
 <link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Temporally staggered cropping co-benefits beneficial insects and pest control globally",
+  "alternateName": "Intercropping Evidence Atlas",
+  "description": "A global evidence base of 7,617 observations from 337 peer-reviewed articles examining how spatial and temporal configurations of intercropping affect insect abundance under field conditions.",
+  "url": "https://adrijaeco.github.io/Intercropping/",
+  "sameAs": "https://doi.org/10.5281/zenodo.20680177",
+  "identifier": "https://doi.org/10.5281/zenodo.20680177",
+  "datePublished": "2026-06-13",
+  "dateModified": "2026-09-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": {
+    "@type": "Person",
+    "name": "Adrija Datta",
+    "affiliation": {"@type": "Organization", "name": "Indian Institute of Technology Gandhinagar"},
+    "sameAs": "https://orcid.org/0000-0002-1971-229X"
+  },
+  "publisher": {"@type": "Organization", "name": "Indian Institute of Technology Gandhinagar"},
+  "spatialCoverage": {"@type": "Place", "name": "Global"},
+  "temporalCoverage": "1978/2025-01",
+  "keywords": ["intercropping", "agroecology", "insect abundance", "beneficial insects", "agricultural pests", "biological control", "crop diversity", "evidence atlas"],
+  "variableMeasured": ["insect abundance", "crop species", "insect family", "intercropping design", "intercropping pattern", "climate region", "study location"],
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Original intercropping workbook",
+      "encodingFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "contentSize": "1006119 bytes",
+      "contentUrl": "https://adrijaeco.github.io/Intercropping/data/intercropping_data_version2.xlsx"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Web explorer observations",
+      "encodingFormat": "application/json",
+      "contentSize": "13826956 bytes",
+      "contentUrl": "https://adrijaeco.github.io/Intercropping/data/observations.json"
+    }
+  ]
+}
+</script>
 </head>
 <body>
 <header class="top"><div class="shell top-inner">
-<a class="brand" href="#top" aria-label="Intercropping Evidence Atlas home"><img src="assets/iea-logo.png" alt=""><span class="brand-name">Intercropping <em>Evidence Atlas</em></span></a><nav><a href="#explore">Explore</a><a href="#groups">Grouped data</a><a href="#contribute">Contribute</a><a href="#faq">Questions</a><a href="#about">About</a></nav>
-</div></header><main id="top" class="shell"><section id="explore" class="explore"><div class="section-head">
+<a class="brand" href="#top" aria-label="Intercropping Evidence Atlas home"><img src="assets/iea-logo.png" alt=""><span class="brand-name">Intercropping <em>Evidence Atlas</em></span></a><nav><a href="#explore">Explore</a><a href="#groups">Grouped data</a><a href="#citation">Cite</a><a href="#contribute">Contribute</a><a href="#faq">Questions</a><a href="#about">About</a></nav>
+</div></header><main id="top" class="shell"><section class="intro seo-intro">
+<p class="eyebrow">OPEN GLOBAL RESEARCH DATASET</p>
+<h1>Global Intercropping <em>Evidence Atlas</em></h1>
+<p>Explore 7,617 observations from 337 peer-reviewed research articles on how intercropping affects agricultural pests, beneficial insects and insect abundance. Search the open dataset by crop combination, insect family, country, climate region, intercropping design or spatial pattern, then download the matching original records.</p>
+<ul class="topic-links" aria-label="Dataset topic pages"><li><a href="topics/countries.html">Countries and regions</a></li><li><a href="topics/insect-families.html">Insect families</a></li><li><a href="topics/intercropping-designs.html">Intercropping designs</a></li></ul>
+</section><section id="explore" class="explore"><div class="section-head">
 <div>
-<h1>Explore observations</h1>
+<h2>Explore intercropping observations</h2>
 <p>Filter the map, select a circle, then view or download its records. Circle size shows the number of observations in each article.</p>
 </div>
 <div class="legend">
@@ -56,7 +121,7 @@
 </div>
 <div class="data-actions">
 <p id="filter-status"></p>
-<button id="view-selected" type="button" class="secondary">View selected article</button><button id="download-filtered" type="button" class="primary">Download matching records (.csv)</button><a class="secondary" href="data/intercropping_data_version2.xlsx" download>Download original workbook (.xlsx)</a>
+<button id="view-selected" type="button" class="secondary">View selected article</button><button id="download-filtered" type="button" class="primary">Download matching records (.csv)</button><a id="download-workbook" class="secondary" href="data/intercropping_data_version2.xlsx" download>Download original workbook (.xlsx)</a>
 </div></section><section id="groups" class="groups"><div class="section-head">
 <div>
 <p class="eyebrow">GROUPED EXPLORATION</p>
@@ -72,7 +137,21 @@
 <div class="group-diagrams" aria-label="Intercropping design and pattern guide">
 <figure><img src="assets/intercropping-arrangements.png" alt="Diagrams of row, strip, mixed and agroforestry patterns alongside replacement, additive and relay intercropping designs"><figcaption><strong>Intercropping arrangements</strong><span>Spatial patterns are shown at left; planting-density and timing designs are shown at right.</span></figcaption></figure>
 </div>
-<div id="group-list" class="group-list"></div></section><section id="contribute" class="contribute"><div>
+<div id="group-list" class="group-list"></div></section><section id="citation" class="citation"><div class="section-head"><div><p class="eyebrow">HOW TO CITE</p><h2>Cite the dataset and atlas</h2><p>If this evidence atlas or its data support your research, report, teaching or software, please cite the archived dataset. When referring specifically to the interactive website, cite the atlas as well and include the date you accessed it.</p></div></div>
+<div class="citation-grid">
+<article><h3>Recommended dataset citation</h3><p id="dataset-citation">Datta, A. (2026). <em>Temporally staggered cropping co-benefits beneficial insects and pest control globally</em> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20680177</p><button class="secondary copy-citation" type="button" data-copy-target="dataset-citation">Copy dataset citation</button></article>
+<article><h3>Interactive atlas citation</h3><p id="website-citation">Datta, A. (2026). <em>Intercropping Evidence Atlas</em> [Interactive website]. Indian Institute of Technology Gandhinagar. https://adrijaeco.github.io/Intercropping/ (accessed <span id="citation-access-date">26 September 2026</span>).</p><button class="secondary copy-citation" type="button" data-copy-target="website-citation">Copy website citation</button></article>
+</div>
+<details class="bibtex"><summary>BibTeX</summary><pre id="bibtex-citation">@dataset{datta_2026_intercropping,
+  author    = {Datta, Adrija},
+  title     = {Temporally staggered cropping co-benefits beneficial insects and pest control globally},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20680177},
+  url       = {https://doi.org/10.5281/zenodo.20680177}
+}</pre><button class="secondary copy-citation" type="button" data-copy-target="bibtex-citation">Copy BibTeX</button></details>
+<p class="citation-guidance"><strong>Minimum attribution:</strong> identify Adrija Datta as the dataset creator, include the dataset title and DOI, and retain the <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a> attribution. Citations help others find the exact archived version used.</p><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+</section><section id="contribute" class="contribute"><div>
 <p class="eyebrow">CONTRIBUTE</p>
 <h2>Contribute an observation</h2>
 <p>Fill in the study and observation details. Your email application will open with the completed submission for Adrija Datta to review. Approved records are added by the curator.</p>
@@ -94,7 +173,8 @@
 <p>One article can contribute many observations. The original workbook contains 337 distinct article IDs, numbered within a wider 339-article collection; IDs 247 and 250 are absent from this supplied file. Blank spreadsheet rows are excluded from the explorer and downloads.</p>
 <p>Raw abundance values use different definitions, including counts, percentages and sampling based measures. The dashboard preserves all 37 original columns and does not pool incompatible units. Each circle uses an article&rsquo;s first reported valid coordinate. Thirty-one articles contain multiple reported locations; five have none and remain available in downloads. Circle area scales with the number of observations in that article.</p>
 </div>
-<p class="source">Source: supplied <em>intercropping_data_version2 (1).xlsx</em>. <a href="https://doi.org/10.5281/zenodo.20680177" target="_blank" rel="noopener noreferrer">Zenodo record &#8599;</a></p></section></main><footer><div class="shell"><span>Intercropping Evidence Atlas</span><div class="curator"><strong>Data curator: Adrija Datta</strong><a href="mailto:dattaadrija@iitgn.ac.in">Email</a><a href="https://scholar.google.com/scholar?q=%22Adrija+Datta%22+%22IIT+Gandhinagar%22" target="_blank" rel="noopener noreferrer">Google Scholar &#8599;</a><a href="https://orcid.org/0000-0002-1971-229X" target="_blank" rel="me noopener noreferrer">ORCID &#8599;</a></div>
+<p class="source">Source: supplied <em>intercropping_data_version2 (1).xlsx</em>. Licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0</a>. <a href="https://doi.org/10.5281/zenodo.20680177" target="_blank" rel="noopener noreferrer">Zenodo dataset and usage statistics &#8599;</a></p></section></main><footer><div class="shell"><span>Intercropping Evidence Atlas</span><div class="curator"><strong>Data curator: Adrija Datta</strong><a href="mailto:dattaadrija@iitgn.ac.in">Email</a><a href="https://scholar.google.com/scholar?q=%22Adrija+Datta%22+%22IIT+Gandhinagar%22" target="_blank" rel="noopener noreferrer">Google Scholar &#8599;</a><a href="https://orcid.org/0000-0002-1971-229X" target="_blank" rel="me noopener noreferrer">ORCID &#8599;</a></div>
 </div></footer><script src="app.js" defer></script>
+<script src="analytics.js" defer></script>
 </body>
 </html>

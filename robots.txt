@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adrijaeco.github.io/Intercropping/sitemap.xml
